@@ -1,1 +1,18 @@
+<meta charset="UTF-8">
+<title>Meus materias a serem estudados</title>
+ 
+<link rel="stylesheet" href="style.css">
+ 
+h1 {
+    font-size: 24px; 
+    background-color: #00FFFF; 
+    color: #FF00FF;
+    text-align: center;
+}
 
+#marca{
+    font-size: 30px; 
+    background-color: #00FFFF; 
+    color: #000001;
+    text-align: center;
+}
