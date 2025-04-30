@@ -51,6 +51,36 @@ aside.imagens {
   height: 300px;
 }
 
+.Preencheimagens {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 15px;
+  width: 100%;
+}
+
+.BordaRedsombra {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 15px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Alinhaborda {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #000;
+}
+
+.Transrota {
+  opacity: 0.8;
+  transform: rotate(45deg);
+}
+
 aside.imagens img {
   width: 100%;
   max-width: 200px;
