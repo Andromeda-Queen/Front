@@ -1,57 +1,3 @@
-<meta charset="UTF-8">
-<title>Meus materias a serem estudados</title>
- 
-<link rel="stylesheet" href="style.css">
-
-#subtitulo{
-    font-size: 24px; 
-    background-color: #00FFFF; 
-    color: #FF00FF;
-    text-align: center;
-}
-
-#abjuracao{
-  font-size: 16px;
-  background-color: #85632f;
-  color: #f1d119;
-  text-align: center;
-}
-
-#evocacao{
-  font-size: 16px;
-  background-color: #321e06;
-  color: #d93656;
-  text-align: center;
-}
-
-#ilusao{
-  font-size: 16px;
-  background-color: #18e6c5;
-  color: #f3fffd;
-  text-align: center;
-}
-
-#necromancia{
-  font-size: 16px;
-  background-color: #2a0303;
-  color: #8931c6;
-  text-align: center;
-}
-
-#transmutacao{
-  font-size: 16px;
-  background-color: #16ad13;
-  color: #258786;
-  text-align: center;
-}
-
-#encantamento{
-  font-size: 16px;
-  background-color: #bd156c;
-  color: #d77bdd;
-  text-align: center;
-}
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -76,7 +22,16 @@ main.conteudo {
 
 section.texto {
   width: 60%;
+}
+
+.paragrafo {
   text-align: justify;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 aside.imagens {
@@ -90,8 +45,7 @@ aside.imagens {
 aside.imagens img {
   width: 100%;
   max-width: 200px;
-  height: auto;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 8px;
 }
 
