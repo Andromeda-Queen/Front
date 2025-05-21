@@ -1,91 +1,34 @@
-body {
+/* Container centralizado */
+/* Container centralizado */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
-header {
-  text-align: center;
-  padding: 20px;
-}
-
-.cabecalho {
-  max-width: 80%;
-  height: auto;
-}
-
-main.conteudo {
+/* Bloco com texto e imagem lado a lado */
+.bloco-destaque {
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
+  align-items: center; /* Alinha o texto e a imagem verticalmente */
+  gap: 20px; /* Espaçamento entre o texto e a imagem */
+  margin-bottom: 40px;
+  justify-content: flex-start; /* Alinha à esquerda */
 }
 
-section.texto {
-  width: 60%;
-}
-
-.paragrafo {
-  text-align: justify;
-  margin-bottom: 20px;
-  font-size: 16px;
+/* Estilização do primeiro parágrafo (Texto 1) */
+.texto-destaque {
+  color: #2C3E50; /* Cor forte para o texto (um tom de azul escuro) */
+  font-family: 'Arial', sans-serif; /* Fonte Arial */
+  font-size: 18px;
   line-height: 1.6;
-  background-color: #f4f4f4;
-  padding: 10px;
+  max-width: 500px; /* Limita a largura do parágrafo */
+  text-align: justify; /* Justifica o texto */
+}
+
+/* Estilização da primeira imagem */
+.imagem-destaque {
+  width: 350px; /* Aumenta o tamanho da imagem */
+  height: auto;
   border-radius: 8px;
 }
-
-aside.imagens {
-  width: 35%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 15px;
-}
-
-.Tamimagens {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 15px;
-  width: 100px;  
-  height: 100px;
-}
-
-.Preencheimagens {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 15px;
-  width: 100%;  
-  height: 100%;
-}
-
-.BordaRedsombra {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 15px;
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.Alinhaborda {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 15px solid #000;
-}
-
-.Transrota {
-  opacity: 0.8;
-  transform: rotate(45deg);
-}
-
-aside.imagens img {
-  width: 100%;
-  max-width: 200px;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-}
-
