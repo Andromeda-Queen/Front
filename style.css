@@ -26,11 +26,6 @@ body {
   margin-bottom: 40px;
 }
 
-/* Versão com imagem à esquerda */
-.bloco-destaque.inverso {
-  flex-direction: row-reverse;
-}
-
 /* Estilização do texto */
 .texto-destaque {
   color: #2C3E50;
